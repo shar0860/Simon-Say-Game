@@ -1,0 +1,48 @@
+  
+  body {
+    background-color: #f7f6f6;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 50px;
+  }
+  
+  .first-line, .second-line {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  .green, .red, .yellow, .blue{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    cursor: pointer;
+    border : 5px solid black;
+  }
+
+  .green {
+    background-color: #28a745;
+  }
+  
+  .red {
+    background-color: #dc3545; 
+  }
+  
+  .yellow {
+    background-color: #ffc107; 
+  }
+  
+  .blue {
+    background-color: #007bff; 
+  }
+  
+  .flash{
+    background-color: rgb(241, 243, 246);
+  }
