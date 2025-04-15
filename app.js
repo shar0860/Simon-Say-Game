@@ -24,6 +24,7 @@ document.querySelector("#start-btn").addEventListener("click", function() {
     }
 });
 
+
 function btnFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
