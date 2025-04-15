@@ -46,3 +46,14 @@
   .flash{
     background-color: rgb(241, 243, 246);
   }
+  #start-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
